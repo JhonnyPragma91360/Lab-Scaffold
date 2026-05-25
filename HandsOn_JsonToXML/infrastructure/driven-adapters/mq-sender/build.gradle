@@ -1,0 +1,6 @@
+dependencies {
+    implementation project(':model')
+    implementation 'com.github.bancolombia:commons-jms-mq:3.0.3'
+    implementation 'org.springframework:spring-context'
+    implementation 'com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.17.1' //Librería manejo XML
+}
